@@ -1,0 +1,1 @@
+cmd_/home/jyh/aes_attack/pmc/MSRdrv.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/jyh/aes_attack/pmc/MSRdrv.ko /home/jyh/aes_attack/pmc/MSRdrv.o /home/jyh/aes_attack/pmc/MSRdrv.mod.o ;  true
